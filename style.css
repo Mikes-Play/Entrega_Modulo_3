@@ -1,0 +1,17 @@
+*{
+    font-family: cursive;
+}
+
+html{
+    background-color: rgb(44, 165, 165);
+}
+
+h1{
+    text-align: center;
+}
+
+div.container{
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+}
