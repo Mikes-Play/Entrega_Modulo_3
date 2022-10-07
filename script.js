@@ -43,7 +43,7 @@ products=[
 container=document.getElementsByClassName('container')[0]
 
 for (const item of products) {
-    if (item.price<1000) {
+    if (item.price<1000 && item.name.includes("Oliva")) {
         container.innerHTML+='<article> <img src="'+item.src +'" width=300 height=300"><br>'+item.name +'<br>'+'$'+item.price+'</article> <br><br>'
     }
     
