@@ -3,16 +3,41 @@
 }
 
 html{
-    background-color: rgb(44, 165, 165);
+    background-color: rgb(77, 179, 179);
 }
 
 h1{
     text-align: center;
 }
 
-div.container{
-    display: flex;
-    width: 40%;
-    flex-wrap: wrap;
-    flex-direction: row;
+.container {
+    margin-left: auto;
+    margin-left: auto;
+    width: 80%;
+    height: auto;
+    display: block
+}
+
+.item, img, p{
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    margin: 1%;
+    float: left;
+    text-align: center; 
+}
+
+img {
+    border-radius: 20%;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+}
+
+p {
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+.item {
+    margin-left: 2%;
+    margin-right: 2%;
 }
